@@ -1,2 +1,2 @@
 # react-require-todos
-react todo mvc using requirejs
+react todo mvc using requirejs, refering tastejs/todomvc project.

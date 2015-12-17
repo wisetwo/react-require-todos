@@ -1,0 +1,31 @@
+{
+  "name": "react-require-todos",
+  "version": "1.0.0",
+  "description": "react todo mvc using requirejs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel jsx -d js"
+  },
+  "babel": {
+    "presets": ["react"]
+  },
+  "keywords": [
+    "react",
+    "require"
+  ],
+  "author": {
+    "name": "wisetwo",
+    "email": "jzs6124@163.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrburke/requirejs.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-preset-react": "^6.3.13"
+  }
+}

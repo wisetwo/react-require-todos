@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>React • TodoMVC</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  <section class="todoapp"></section>
+  <footer class="info">
+    <p>Double-click to edit a todo</p>
+  </footer>
+  <script type="text/javascript" src="js/lib/require.js"></script>
+  <script type="text/javascript">
+  require.config({
+    baseUrl: "js/",
+    paths: {
+      "react": "lib/react",
+      "react-dom": "lib/react-dom",
+      "router": "lib/director"
+    }
+  });
+  require(['app'], function(app){
+    app.init();
+  });
+  </script>
+</body>
+</html>

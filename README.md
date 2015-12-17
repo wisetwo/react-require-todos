@@ -1,7 +1,7 @@
 # react-require-todos
 Todo application demo implemented by using react for rendering, requirejs as module loader, directorjs for url routing, and babel for jsx precompiling.
 
-## Install
+## Install and start
 Using npm:
 
     npm install
@@ -16,4 +16,4 @@ And then visit http://localhost:3000/ by default.
 MIT
 
 ## More info
-Check [todomvc](https://github.com/tastejs/todomvc) and [reactjs](https://github.com/facebook/react) repos.
+Check the [todomvc](https://github.com/tastejs/todomvc) and [reactjs](https://github.com/facebook/react) repos.

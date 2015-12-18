@@ -1,0 +1,15 @@
+{
+  "name": "react-require-todos",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "~0.14.3",
+    "requirejs": "~2.1.22",
+    "director": "~1.2.8"
+  }
+}

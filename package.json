@@ -2,14 +2,10 @@
   "name": "react-require-todos",
   "version": "1.0.0",
   "description": "react todo mvc using requirejs",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel jsx -d js"
-  },
-  "babel": {
-    "presets": ["react"]
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "react",
@@ -25,7 +21,16 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "babel-cli": "^6.3.17",
-    "babel-preset-react": "^6.3.13"
+    "babel-preset-react": "^6.3.13",
+    "del": "^2.2.0",
+    "gulp-babel": "^6.1.1",
+    "gulp-csso": "^1.0.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-size": "^2.0.0",
+    "gulp-uglify": "^1.5.1",
+    "jshint": "^2.8.0",
+    "jshint-stylish": "^2.1.0",
+    "run-sequence": "^1.1.5"
   }
 }

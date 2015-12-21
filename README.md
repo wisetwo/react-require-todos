@@ -2,10 +2,10 @@
 Todo application demo implemented by using react for rendering, requirejs as module loader, directorjs for url routing, and babel for jsx precompiling.
 
 ## Install and start
-Fistly install necessary packages via npm:
+Firstly install necessary packages via npm:
 
     npm install
-And we presume that you have installed gulp, babel, babel-cli, bower, express, etc, gloabally. If not you should install them with the "npm install -g" prefix.
+And we presume that you have installed gulp, babel, babel-cli, bower, express, etc, globally. If not you should install them with the "npm install -g" prefix.
 
 To complile the jsx files and do other building work, use:
 
